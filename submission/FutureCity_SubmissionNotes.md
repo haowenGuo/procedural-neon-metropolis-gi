@@ -1,4 +1,4 @@
-# Procedural Neon Metropolis GI
+# SHADERTTOY-程序化城市-全局GI
 
 ## ShaderToy tabs
 
@@ -19,7 +19,7 @@ the visible image region before display.
 
 ## Short submission description
 
-Procedural Neon Metropolis GI is a ShaderToy-based real-time procedural global
+SHADERTTOY-程序化城市-全局GI is a ShaderToy-based real-time procedural global
 illumination experiment. The scene is a large hash-driven cyberpunk city built
 from an infinite grid of procedural cells. Each cell deterministically chooses
 road, plaza, podium, tower, glass needle, dark metal slab, stepped mid-rise, or

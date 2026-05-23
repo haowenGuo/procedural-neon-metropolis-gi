@@ -1,4 +1,4 @@
-# 程序化霓虹都市 GI
+# SHADERTTOY-程序化城市-全局GI
 
 面向 HPG 2026 Student Competition 主题 **Vast Proceduralism and Global Illumination** 的 ShaderToy 作品。
 
@@ -10,7 +10,7 @@ ShaderToy 链接：https://www.shadertoy.com/view/sXBGRw
 
 ## 概览
 
-`Procedural Neon Metropolis GI` 是一个两 pass 的 ShaderToy 程序化城市全局光照实验。场景完全在运行时生成：道路、广场、高架轨道、裙楼、塔楼、玻璃尖塔、暗色金属板楼、砖/复合立面、霓虹招牌、冷暖窗光、金属面板、玻璃幕墙和木质装饰都来自确定性的 cell hash。
+`SHADERTTOY-程序化城市-全局GI` 是一个两 pass 的 ShaderToy 程序化城市全局光照实验。场景完全在运行时生成：道路、广场、高架轨道、裙楼、塔楼、玻璃尖塔、暗色金属板楼、砖/复合立面、霓虹招牌、冷暖窗光、金属面板、玻璃幕墙和木质装饰都来自确定性的 cell hash。
 
 渲染器采用混合 GI 路线：少量真实路径追踪负责 primary hit、太阳直射、硬阴影、GGX 材质、薄玻璃反射、部分 secondary bounce 和偶然命中的 emissive；确定性的城市 irradiance field 负责稳定的天空可见性、道路反弹、立面互反弹、窗户/霓虹色溢出和金属/玻璃的城市反射。
 
@@ -127,4 +127,3 @@ node .\render_future_city_offline.js
 比赛官方提交邮箱：
 
 `studentcompetition@highperformancegraphics.org`
-

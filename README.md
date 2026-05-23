@@ -1,4 +1,4 @@
-# Procedural Neon Metropolis GI
+# SHADERTTOY-程序化城市-全局GI
 
 ShaderToy entry for the HPG 2026 Student Competition theme: **Vast Proceduralism and Global Illumination**.
 
@@ -10,7 +10,7 @@ Languages: [English](README.md) | [中文](README.zh-CN.md) | [日本語](README
 
 ## Overview
 
-Procedural Neon Metropolis GI is a two-pass ShaderToy shader that renders a large hash-generated cyberpunk city with hybrid global illumination. The scene is built entirely at runtime from deterministic procedural cells: roads, plazas, rail infrastructure, podiums, towers, glass needles, dark metal slabs, brick/composite facades, neon signs, warm/cool windows, metal panels, glass curtain walls, and wood-like accents.
+SHADERTTOY-程序化城市-全局GI is a two-pass ShaderToy shader that renders a large hash-generated cyberpunk city with hybrid global illumination. The scene is built entirely at runtime from deterministic procedural cells: roads, plazas, rail infrastructure, podiums, towers, glass needles, dark metal slabs, brick/composite facades, neon signs, warm/cool windows, metal panels, glass curtain walls, and wood-like accents.
 
 The renderer combines a small stochastic path tracer with a deterministic city irradiance field. Primary hits, direct sun, hard sun shadows, GGX materials, thin-glass reflections, selected secondary bounces, and emissive path hits are traced explicitly. Diffuse and glossy indirect lighting are reinforced by stable procedural fields derived from the same cell hashes that generate the visible city.
 

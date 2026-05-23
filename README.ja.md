@@ -1,4 +1,4 @@
-# Procedural Neon Metropolis GI
+# SHADERTTOY-程序化城市-全局GI
 
 HPG 2026 Student Competition のテーマ **Vast Proceduralism and Global Illumination** に向けた ShaderToy 作品です。
 
@@ -10,7 +10,7 @@ ShaderToy リンク：https://www.shadertoy.com/view/sXBGRw
 
 ## 概要
 
-`Procedural Neon Metropolis GI` は、2 パス構成の ShaderToy プロシージャル都市 GI 実験です。道路、広場、高架レール、低層ポディウム、高層ビル、ガラスのタワー、暗い金属スラブ、レンガ/複合ファサード、ネオンサイン、暖色/寒色の窓光、金属パネル、ガラスカーテンウォール、木質アクセントを、すべて実行時の決定的な cell hash から生成します。
+`SHADERTTOY-程序化城市-全局GI` は、2 パス構成の ShaderToy プロシージャル都市 GI 実験です。道路、広場、高架レール、低層ポディウム、高層ビル、ガラスのタワー、暗い金属スラブ、レンガ/複合ファサード、ネオンサイン、暖色/寒色の窓光、金属パネル、ガラスカーテンウォール、木質アクセントを、すべて実行時の決定的な cell hash から生成します。
 
 レンダラはハイブリッド GI 方式です。少量の確率的パストレーシングで primary hit、太陽の直接光、ハードシャドウ、GGX 材質、薄いガラス反射、一部の secondary bounce、emissive へのヒットを扱い、決定的な都市 irradiance field で空の可視性、道路反射、ファサード間の反射、窓/ネオンの色移り、金属/ガラスの都市反射を安定化します。
 
@@ -127,4 +127,3 @@ node .\render_future_city_offline.js
 公式提出先：
 
 `studentcompetition@highperformancegraphics.org`
-

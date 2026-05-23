@@ -1,4 +1,4 @@
-Subject: HPG 2026 Student Competition Submission - Procedural Neon Metropolis GI
+Subject: HPG 2026 Student Competition Submission - SHADERTTOY-程序化城市-全局GI
 
 To: studentcompetition@highperformancegraphics.org
 
@@ -6,7 +6,7 @@ Dear HPG 2026 Student Competition Committee,
 
 I would like to submit my entry to the HPG 2026 Student Competition.
 
-Title: Procedural Neon Metropolis GI
+Title: SHADERTTOY-程序化城市-全局GI
 
 ShaderToy link: https://www.shadertoy.com/view/sXBGRw
 
@@ -20,7 +20,7 @@ Eligibility statement: I was a student at the time this work was completed.
 
 Short description:
 
-Procedural Neon Metropolis GI is a ShaderToy-based procedural global
+SHADERTTOY-程序化城市-全局GI is a ShaderToy-based procedural global
 illumination shader showing a large hash-generated cyberpunk city. The scene is
 generated entirely at runtime from procedural cells, including roads, plazas,
 towers, podiums, glass needle towers, metal slabs, brick/composite facades,
