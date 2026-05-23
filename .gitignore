@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+FutureCity_frames/
+FutureCity_*frames*/
+FutureCity_preview.webm
+*_renderer.html
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
