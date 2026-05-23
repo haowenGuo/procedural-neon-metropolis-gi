@@ -1,0 +1,14 @@
+{
+  "name": "procedural-neon-metropolis-gi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "ShaderToy procedural city global illumination submission helper files.",
+  "scripts": {
+    "render": "node render_future_city_offline.js"
+  },
+  "dependencies": {
+    "playwright": "*"
+  }
+}
+
